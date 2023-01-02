@@ -1,0 +1,15 @@
+{
+    "name": "nasa-project-nodejs",
+    "version": "1.0.0",
+    "description": "automate client and server projects",
+    "main": "index.js",
+    "scripts": {
+        "client": "cd client && yarn start",
+        "server": "cd server && yarn watch",
+        "watch": "yarn server & yarn client",
+        "deploy": "cd client && yarn build && cd ../server && yarn start"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC"
+}
